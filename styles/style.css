@@ -6,16 +6,17 @@
 .clearfix {
 	clear: both;
 }
-#container {
+#home {
 	
 	margin: 0 auto;
-	width: 100%;
+	width: 80%;
 	height: 100%;
 }
+
 header{
-	background-color: black;
+	
 	width: 100%;
-	color:white;
+	
 
 }
 #left_header{
@@ -60,7 +61,7 @@ article{
 footer{
 	width: 100%;
 	height: 90px;
-	background-color: #F8F8F8;
+	background-color: #E5E5E5;
 	
 	margin-top: 20px;
 	padding-top: 20px;
