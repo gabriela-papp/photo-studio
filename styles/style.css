@@ -35,6 +35,9 @@ nav ul li {
 	margin: 0 2px;
 	
 }
+nav ul li a{
+	text-decoration: none;
+}
 nav ul li:hover{
 	color: white;
 	background-color: #595859;
@@ -98,7 +101,6 @@ footer{
 	height: 90px;
 	background-color: #E5E5E5;
 	
-	margin-top: 20px;
 	padding-top: 20px;
 	
  
