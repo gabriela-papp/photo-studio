@@ -66,13 +66,27 @@ article{
 	
 }
 .second_section{
-	background-image: url(../images/Hair.jpg);
+	background-image: url(../images/hair2.jpg);
 	background-size: 100%;
 	width: 100%;
 	height: 100%;
 	background-repeat: no-repeat;
 	padding:0;
 	margin:0;
+
+}
+.second_section h1{
+		text-align: center;
+		color:white;
+		padding-top: 15px;
+
+}
+.second_section p{
+	color: white; 
+	text-indent: 50px;
+	padding: 30 100px 0 100px;
+	font-size: 18px;
+	 line-height: 200%;
 
 }
 footer{
