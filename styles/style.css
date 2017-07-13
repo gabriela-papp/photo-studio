@@ -18,11 +18,8 @@ body{
 }
 
 header{
-	
 	width: 100%;
-	
-
-}
+	}
 #left_header{
 	padding:15px 0;
 	float: left;
@@ -44,8 +41,11 @@ nav ul li:hover{
 
 }
 .red{
-	background-color: silver;
-	height: 300px;
+	
+	background-image: url(../images/Hair.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 400px;
 	width: 100%;
 }
 section{
