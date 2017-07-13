@@ -42,10 +42,9 @@ nav ul li:hover{
 }
 .red{
 	
-	background-image: url(../images/Hair.jpg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	height: 400px;
+}
+.red img{
+	height: 80%;
 	width: 100%;
 }
 section{
