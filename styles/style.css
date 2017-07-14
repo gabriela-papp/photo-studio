@@ -69,7 +69,7 @@ article h1{
 }
 article img{
 	width: 100%;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 .art_title{
 	padding: 5% 0;
@@ -105,9 +105,9 @@ article img{
 	width: 100%;
 }
 .myGallery img{
-	width: 32%;
+	width: 25%;
 	float:left;
-	margin: 10px 1% 20px 0;
+	
 }
 .my_work img{
 	width: 30%;
@@ -121,6 +121,81 @@ article img{
 }
 .my_work_article h1{
 	text-align: center;
+}
+.img1{
+	background-image: url(../images/wed-1.jpg);
+	position: relative;
+	background-size: cover;
+	background-position: center center;
+	height: 800px;
+	background-attachment: fixed;
+}
+.img2{
+	background-image: url(../images/img2.jpg);
+	position: relative;
+	background-size: cover;
+	background-position: center center;
+	height: 800px;
+	background-attachment: fixed;
+}
+.img3{
+	background-image: url(../images/img3.jpg);
+	position: relative;
+	background-size: cover;
+	background-position: center center;
+	height: 800px;
+	background-attachment: fixed;
+}
+.img4{
+	background-image: url(../images/img4.jpg);
+	position: relative;
+	background-size: cover;
+	background-position: center center;
+	height: 800px;
+	background-attachment: fixed;
+}
+.img5{
+	background-image: url(../images/img5.jpg);
+	position: relative;
+	background-size: cover;
+	background-position: center center;
+	height: 800px;
+	background-attachment: fixed;
+}
+.img1 h1{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+.img2 h1{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+.img3 h1{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+.img4 h1{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+.img5 h1{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: white;
 }
 footer{
 	width: 100%;
