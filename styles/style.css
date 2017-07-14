@@ -109,6 +109,19 @@ article img{
 	float:left;
 	margin: 10px 3% 20px 0;
 }
+.my_work img{
+	width: 30%;
+	float: left;
+	margin: 20px 0 20px 30px;
+}
+.my_work p{
+	width: 60%;
+	float: right;
+	margin: 20px;
+}
+.my_work_article h1{
+	text-align: center;
+}
 footer{
 	width: 100%;
 	height: 90px;
