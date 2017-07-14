@@ -31,7 +31,7 @@ nav ul li {
 	float:left;
 	padding: 27px 17px;
 	font-size: 20px;
-	 list-style-type: none;
+	list-style-type: none;
 	margin: 0 2px;
 	
 }
@@ -43,9 +43,7 @@ nav ul li:hover{
 	background-color: #595859;
 
 }
-.red{
-	
-}
+
 .red img{
 	height: 80%;
 	width: 100%;
@@ -62,14 +60,24 @@ section h1{
 article{
 	width: 30%;
 	float:left;
+	margin: 10px 3% 20px 0;
+}
+article h1{
+	text-align: center;
+	font-weight: bold;
 
+}
+article img{
+	width: 100%;
+	border-radius: 20px;
 }
 .art_title{
 	padding: 5% 0;
+	text-align: center;
 	
 }
 .second_section{
-	background-image: url(../images/hair2.jpg);
+	background-image: url(../images/311.jpg);
 	background-size: cover;
 	background-position: center center;
 	padding:0;
@@ -78,9 +86,9 @@ article{
 
 }
 .second_section h1{
-		text-align: center;
-		color:white;
-		padding-top: 20px;
+	text-align: center;
+	color:white;
+	padding-top: 20px;
 
 }
 .second_section p{
