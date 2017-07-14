@@ -104,6 +104,11 @@ article img{
 	
 	width: 100%;
 }
+.myGallery img{
+	width: 30%;
+	float:left;
+	margin: 10px 3% 20px 0;
+}
 footer{
 	width: 100%;
 	height: 90px;
