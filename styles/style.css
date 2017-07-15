@@ -20,6 +20,9 @@ body{
 header{
 	width: 100%;
 	}
+header a{
+		color: #666;
+	}
 #left_header{
 	padding:15px 0;
 	float: left;
@@ -39,9 +42,11 @@ nav ul li a{
 	text-decoration: none;
 }
 nav ul li:hover{
-	color: white;
+	
 	background-color: #595859;
-
+}
+nav ul li a:hover{
+	color:white;
 }
 
 .red img{
