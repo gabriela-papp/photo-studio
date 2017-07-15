@@ -76,9 +76,10 @@ article h1{
 article img{
 	width: 100%;
 	border-radius: 10px;
+	
 }
 article img:hover{
-	 transition: all 200ms ease-in;
+	 transition: all 300ms ease-in;
     transform: scale(1.5);
 }
 .art_title{
@@ -107,6 +108,7 @@ article img:hover{
 	padding: 0 50px 10px 50px;
 	font-size: 18px;
 	 line-height: 170%;
+	 margin-bottom: 0;
 
 
 }
