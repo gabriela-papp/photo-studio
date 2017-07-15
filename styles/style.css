@@ -77,6 +77,10 @@ article img{
 	width: 100%;
 	border-radius: 10px;
 }
+article img:hover{
+	 transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
 .art_title{
 	padding: 5% 0;
 	text-align: center;
