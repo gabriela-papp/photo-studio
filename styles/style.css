@@ -224,3 +224,8 @@ footer{
 .footer h3{
 	text-align: center;
 }
+.footer li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px;
+}
