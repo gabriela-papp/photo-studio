@@ -134,10 +134,15 @@ article img{
 .my_work p{
 	width: 60%;
 	float: right;
-	margin: 20px;
+	margin-top: 10px;
 }
 .my_work_article h1{
 	text-align: center;
+}
+.my_work_article p{
+	max-width: 900px;
+	margin: 0 auto;
+	line-height: 170%;
 }
 .img1{
 	background-image: url(../images/wed-1.jpg);
