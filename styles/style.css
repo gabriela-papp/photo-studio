@@ -83,7 +83,7 @@ nav ul li a:hover{
 		font-size: 10px;
 	}
 }
-.red img{
+.first_section img{
 	height: 80%;
 	width: 100%;
 }
@@ -116,6 +116,11 @@ article img{
 	padding: 5% 0;
 	text-align: center;
 	
+}
+@media screen and (max-width: 650px){
+	article{
+		width: 100%;
+	}
 }
 .second_section{
 	background-image: url(../images/311.jpg);
