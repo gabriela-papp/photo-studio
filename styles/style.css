@@ -140,12 +140,12 @@ article img{
 	font-size: 18px;
 	 line-height: 170%;
 	 margin: 0 auto;
-
-
+	 width: 100%;
 }
-.second_section_p{
-	
-	width: 100%;
+@media screen and (max-width: 650px){
+	.second_section p{
+		padding:0 15px 10px 15px;
+	}
 }
 .myGallery img{
 	width: 25%;
@@ -190,12 +190,12 @@ article img{
 	}
 }
 .img1{
-	background-image: url(../images/wed-1.jpg);
+	background-image: url(../images/wedding.jpeg);
 	position: relative;
 	background-size: cover;
 	background-position: center center;
 	height: 800px;
-	background-attachment: fixed;
+	
 }
 .img2{
 	background-image: url(../images/img2.jpg);
@@ -229,6 +229,7 @@ article img{
 	height: 800px;
 	background-attachment: fixed;
 }
+
 .img1 h1{
 	position: absolute;
 	top: 50%;
@@ -263,6 +264,53 @@ article img{
 	width: 100%;
 	text-align: center;
 	color: white;
+}
+@media screen and (max-width: 700px){
+	.img1 {
+		background-size: 140%;
+		height: 300px;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+	}
+	.img1 h1{
+		top:40%;
+	}
+	.img2 {
+		background-size: 140%;
+		height: 300px;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+	}
+	.img2 h1{
+		top:40%;
+	}
+	.img3 {
+		background-size: 140%;
+		height: 300px;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+	}
+	.img3 h1{
+		top:40%;
+	}
+	.img4 {
+		background-size: 140%;
+		height: 300px;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+	}
+	.img4 h1{
+		top:40%;
+	}
+	.img5 {
+		background-size: 140%;
+		height: 300px;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+	}
+	.img5 h1{
+		top:40%;
+	}
 }
 footer{
 	width: 100%;
