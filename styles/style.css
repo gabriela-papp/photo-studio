@@ -176,6 +176,19 @@ article img{
 	line-height: 200%;
 	padding-bottom: 15px;
 }
+@media screen and (max-width: 650px){
+	.my_work img{
+		width: 100%;
+		margin: 0;
+	}
+	.my_work p{
+		width: 100%;
+		padding: 15px;
+	}
+	.my_work_article p{
+		padding:15px;
+	}
+}
 .img1{
 	background-image: url(../images/wed-1.jpg);
 	position: relative;
