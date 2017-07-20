@@ -108,8 +108,7 @@ article h1{
 }
 article img{
 	width: 100%;
-	border-radius: 10px;
-	
+
 }
 
 .art_title{
@@ -120,6 +119,7 @@ article img{
 @media screen and (max-width: 650px){
 	article{
 		width: 100%;
+		margin:0 0 15px 0;
 	}
 }
 .second_section{
@@ -183,8 +183,8 @@ article img{
 }
 @media screen and (max-width: 650px){
 	.my_work img{
-		width: 100%;
-		margin: 0;
+		width: 90%;
+		margin: 0 5% 0 5%;
 	}
 	.my_work p{
 		width: 100%;
@@ -319,7 +319,7 @@ article img{
 }
 footer{
 	width: 100%;
-	height: 90px;
+	height: 100%;
 	background-color: #E5E5E5;
 	
 	padding-top: 20px;
@@ -329,6 +329,10 @@ footer{
 .footer{
 	padding: 0 5%;
 }
+.footer{
+	max-width: 80%;
+	margin: 0 auto;
+}
 .footer h3{
 	text-align: center;
 }
@@ -336,6 +340,13 @@ footer{
 	list-style-type: none;
 	display: inline-block;
 	padding: 5px;
+}
+.footer form{
+	float: right;
+	padding-bottom: 15px;
+}
+.footer form input{
+	margin-bottom: 10px;
 }
 @media screen and (max-width: 650px){
 	.footer{
