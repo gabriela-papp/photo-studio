@@ -37,6 +37,9 @@ header a{
 nav {
 	float: right;
 }
+nav ul{
+	margin-bottom: 0;
+}
 nav ul li {
 	
 	padding: 27px 17px;
@@ -57,7 +60,18 @@ nav ul li:hover{
 nav ul li a:hover{
 	color:white;
 }
-@media screen and (max-width: 650px){
+@media screen and (max-width: 950px){
+	#home{
+		width: 100%;
+	} 
+	#left_header h1{
+		padding-left: 10px;
+	}
+	nav ul li{
+		padding: 27px 10px;
+	}
+}
+@media screen and (max-width: 730px){
 	#home{
 		width: 100%;
 	}
