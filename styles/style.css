@@ -13,20 +13,23 @@ body{
 #home {
 	
 	margin: 0 auto;
-	width: 80%;
+	width: 100%;
 	
 }
 .logo{
 	font-family: 'Permanent Marker', cursive;
+	color: #E5E5E5;
 }
 header{
 	width: 100%;
+	background-color:  #595859;
+
 	}
 header a{
 		color: #666;
 	}
 #left_header{
-	padding:15px 0 0 0 ;
+	padding:15px 0px 10px 25px ;
 	float: left;
 	transition: border 1s;
 }
@@ -38,6 +41,7 @@ header a{
 }
 nav {
 	float: right;
+
 }
 nav ul{
 	margin-bottom: 0;
@@ -54,13 +58,7 @@ nav ul li {
 }
 nav ul li a{
 	text-decoration: none;
-}
-nav ul li:hover{
-	
-	background-color: #595859;
-}
-nav ul li a:hover{
-	color:white;
+	color: #E5E5E5;
 }
 @media screen and (max-width: 950px){
 	#home{
@@ -80,6 +78,8 @@ nav ul li a:hover{
 	#left_header{
 		width: 100%;
 		text-align: center;
+		padding:0px;
+		padding-top: 10px;
 	}
 	nav{
 		width: 100%;
