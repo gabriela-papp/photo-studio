@@ -18,7 +18,7 @@ body{
 }
 .logo{
 	font-family: 'Permanent Marker', cursive;
-	color: #E5E5E5;
+	color: #D3B0AD;
 }
 header{
 	width: 100%;
@@ -56,11 +56,11 @@ nav ul li {
 }
 nav ul li a{
 	text-decoration: none;
-	color: #E5E5E5;
+	color: #D3B0AD;
 }
 nav ul li a:hover{
 	text-decoration: none;
-	color: #E5E5E5;
+	color: #D3B0AD;
 }
 @media screen and (max-width: 950px){
 	#home{
@@ -363,7 +363,7 @@ footer{
 .nav-footer ul li:after{
  content: '/';
  position: absolute;
-
+ color:  #D3B0AD;
  right:-5px;
 }
 .nav-footer ul li:last-child:after {
@@ -390,7 +390,7 @@ footer{
 
 }
 .logo-footer{
-	color: #595859;
+	color: #D3B0AD;
 	font-family: 'Permanent Marker', cursive;
 }
 .footer-logo li{
@@ -400,9 +400,12 @@ footer{
 	text-align: center;
 }
 .footer-logo li i{
-	color: #595859;
+	color:  #D3B0AD;
 	padding:10px;
 	
+}
+.footer-logo ul li a{
+	color:  #D3B0AD;
 }
 .footer form{
 	margin: 0 auto;

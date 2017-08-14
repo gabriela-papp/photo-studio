@@ -1,1 +1,1 @@
-$('.second_section h1').addClass('animated shake');
+$('.second_section h1').addClass('animated fadeInUp');
