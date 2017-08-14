@@ -36,9 +36,7 @@ header a{
 #left_header h1{
 	margin-bottom: 0;
 }
-#left_header:hover{
-	border-bottom: solid 4px;
-}
+
 nav {
 	float: right;
 
@@ -389,6 +387,11 @@ footer{
 }
 .footer-logo{
 	padding: 65px;
+
+}
+.logo-footer{
+	color: #595859;
+	font-family: 'Permanent Marker', cursive;
 }
 .footer-logo li{
 	list-style-type: none;
@@ -399,7 +402,7 @@ footer{
 .footer-logo li i{
 	color: #595859;
 	padding:10px;
-	;background-color: 6
+	
 }
 .footer form{
 	margin: 0 auto;
