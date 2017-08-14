@@ -190,14 +190,21 @@ article img{
 	float: right;
 	margin-top: 10px;
 }
+.my_work_article{
+	background-color: #D3B0AD;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
 .my_work_article h1{
 	text-align: center;
+	color: white;
 }
 .my_work_article p{
 	max-width: 900px;
 	margin: 0 auto;
 	line-height: 200%;
 	padding-bottom: 15px;
+	color: white;
 }
 @media screen and (max-width: 650px){
 	.my_work img{
@@ -363,7 +370,7 @@ footer{
 .nav-footer ul li:after{
  content: '/';
  position: absolute;
- color:  #D3B0AD;
+
  right:-5px;
 }
 .nav-footer ul li:last-child:after {
@@ -383,14 +390,14 @@ footer{
 	text-align: center;
 	margin-bottom: 20px;
 	font-size: 15px;
-	color: #E5E5E5;
+	color: #D3B0AD;
 }
 .footer-logo{
 	padding: 65px;
 
 }
 .logo-footer{
-	color: #D3B0AD;
+	color: #595859;
 	font-family: 'Permanent Marker', cursive;
 }
 .footer-logo li{
@@ -400,12 +407,9 @@ footer{
 	text-align: center;
 }
 .footer-logo li i{
-	color:  #D3B0AD;
+	color: #595859;
 	padding:10px;
 	
-}
-.footer-logo ul li a{
-	color:  #D3B0AD;
 }
 .footer form{
 	margin: 0 auto;
@@ -415,7 +419,7 @@ footer{
 }
 .footer form label{
 text-transform: capitalize;
-color: #E5E5E5;
+color: #D3B0AD;
 font-size: 25px;
 }
 .footer form input{
@@ -426,6 +430,7 @@ font-size: 25px;
 	border-radius: 20px;
 	margin: 0 auto;
 	height: 50px;
+	color: #D3B0AD;
 }
 @media screen and (max-width: 650px){
 	.footer{
