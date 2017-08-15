@@ -211,18 +211,34 @@ article img{
 	margin: 0 auto;
 	margin-top: 40px;
 	margin-bottom: 55px;
+	position: relative;
+}
+.prev{
+	position: absolute;
+	top: 50%;
+}
+.next{
+	position: absolute;
+	top: 50%;
+	left: 90%;
 }
 .testimon-title{
 	text-align:center;
 	margin-bottom: 45px;
+
 }
 .testimon-body{
 	width: 70%;
 	margin:0 auto;
+	display: none;
+}
+.testimon-body.active{
+display: block;
 }
 .testimon-body h4{
 	text-align: center;
 	margin-bottom:35px;
+	font-family: 'Playfair Display';
 }
 .clients p{
 	font-family: 'Playfair Display';
