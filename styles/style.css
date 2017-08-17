@@ -216,11 +216,13 @@ article img{
 .prev{
 	position: absolute;
 	top: 50%;
+	cursor: pointer;
 }
 .next{
 	position: absolute;
 	top: 50%;
 	left: 90%;
+	cursor: pointer;
 }
 .testimon-title{
 	text-align:center;
